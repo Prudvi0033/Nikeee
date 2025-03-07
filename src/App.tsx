@@ -1,16 +1,11 @@
-import Box from "./components/Box" 
-import HButton from "./components/HButton"
-import Spring from "./components/Spring"
-import ToggleButton from "./components/ToggleButton"
+import ModalCard from "./components/ModalCard"
+
 
 function App() {
   return (
-    <>
-      {/* <Box/> */}
-      {/* <Spring/> */}
-      {/* <ToggleButton/> */}
-      <HButton/>
-    </>
+    <div className="h-screen flex items-center justify-center bg-gray-300">
+      <ModalCard/>
+    </div>
   )
 }
 
