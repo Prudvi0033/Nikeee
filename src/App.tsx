@@ -1,10 +1,10 @@
-import Socials from "./components/Socials"
+import Stagger from "./components/Stagger"
 
 
 function App() {
   return (
     <div className="h-screen flex items-center justify-center bg-zinc-900">
-      <Socials/>
+      <Stagger/>
     </div>
   )
 }
